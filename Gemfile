@@ -51,6 +51,9 @@ gem "sassc-rails"
 #Authentification
 gem "devise"
 
+#Token authentification
+gem 'simple_token_authentication'
+
 #Autorization
 gem 'pundit'
 
