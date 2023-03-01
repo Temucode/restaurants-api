@@ -4,6 +4,7 @@ class RestaurantPolicy < ApplicationPolicy
     def resolve
       scope.all
     end
+  end
 
     def show?
       true
@@ -17,8 +18,7 @@ class RestaurantPolicy < ApplicationPolicy
       update?
     end
 
-    def destroy
+    def destroy?
       update?
     end
-  end
 end
